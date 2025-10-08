@@ -35,7 +35,7 @@ The project aims to connect job seekers and recruiters efficiently with a modern
 
 ## Technologies Used
 
-* **Frontend:** React.js, Tailwind CSS, Lucide Icons, React-Quill (Rich Text Editor)
+* **Frontend:** React.js, Tailwind CSS, Lucide Icons, React-Quill (Rich Text Editor), Shadcn UI
 * **Backend:** Node.js, Express.js
 * **Database:** MongoDB
 * **Authentication:** JWT, Cookies
