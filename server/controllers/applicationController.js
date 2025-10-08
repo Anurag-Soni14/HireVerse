@@ -79,13 +79,18 @@ export const getApplicants = async (req, res) => {
 
 export const withdraw = async (req, res) => {
   try {
+    const userId = await CandidateProfile.findOne({user: req.user.id}).select("_id");
+    if(!userId) return res.status(404).json({ message: "Candidate profile not found" });
     const deleted = await Application.findOneAndDelete({
       _id: req.params.id,
-      candidate: req.user.id,
+      candidate: userId,
     });
-    if (!deleted) return res.status(404).json({ message: "Not found" });
-    return res.json({ message: "Withdrawn" });
-  } catch {
-    return res.status(400).json({ message: "Invalid data" });
+
+    if (!deleted) return res.status(404).json({ message: "Application not found" });
+    return res.json({ message: "Withdrawn successfully", success: true });
+  } catch (error) {
+    console.error("Withdraw error:", error);
+    return res.status(400).json({ message: "Invalid data", error: error.message });
   }
 };
+
