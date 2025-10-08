@@ -112,19 +112,19 @@ Watch the demo video showcasing the project: [Demo Video](https://drive.google.c
 
 ### Landing Page
 
-<img width="1905" height="1712" alt="localhost_5173_" src="https://github.com/user-attachments/assets/80f33612-009f-4404-9658-ba7d2dfd0ca9" />
+<img width="1905" height="1712" alt="localhost_5173_" src="https://github.com/user-attachments/assets/fb59c318-58d0-4b30-9198-053c991d3dff" />
 
 ### Auth  Page
 
-<img width="1905" height="662" alt="localhost_5173_auth" src="https://github.com/user-attachments/assets/fc8baa8f-5d53-4ded-a3ca-27dd7717191f" />
+<img width="1905" height="662" alt="localhost_5173_auth" src="https://github.com/user-attachments/assets/5a9d7e7a-f6ae-4d0a-862a-96e4bec107cb" />
 
 ### Candidate Dashboard
 
-<img width="1905" height="963" alt="localhost_5173_auth (1)" src="https://github.com/user-attachments/assets/6aa4aa23-949f-47c2-87a7-08f8f1979f3b" />
+<img width="1905" height="963" alt="localhost_5173_auth (1)" src="https://github.com/user-attachments/assets/6e038f9d-b356-4131-92fb-4c7988cdabf6" />
 
 ### Recruiter Dashboard
 
-<img width="1905" height="1027" alt="localhost_5173_auth (2)" src="https://github.com/user-attachments/assets/1de6f263-c72e-4a71-81a5-428490a3cbf1" />
+<img width="1905" height="1027" alt="localhost_5173_auth (2)" src="https://github.com/user-attachments/assets/b67ce142-3a88-41c9-952a-b83a3c0374d1" />
 
 ## Contributing
 
